@@ -4,13 +4,41 @@
 }
 
 .header.image { 
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/feast.jpg');
+    background-image:linear-gradient (rgba(0, 0, 0, 10), rgba(0, 0, 0, 10)), url('./img/feast.jpg');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
     width: 100%;
-    margin: none;
-    padding: none;
 }
 
+
+.header.text {
+  position: absolute;
+  text-align: right;
+  top: 65%;
+  left: 40%;
+}
+
+.header.text #header {
+    font-size: 45px;
+    font-family: lovelo, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(186, 165, 133);
+    background-color: white;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.header.text p {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(186, 165, 133);
+    background-color: white;
+    text-align: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
