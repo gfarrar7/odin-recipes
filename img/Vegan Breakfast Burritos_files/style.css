@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* index.html styling beginning */
+
+    /* General page background */
+    body {
+        background-color: rgb(243, 232, 216);
+        margin: 0;
+    }
+
+    /* Links */
+    a {
+        /* Colour */
+        color: white;
+        /* Font/Text */
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 35px;
+    }
+
+    /* Link Aesthetic */
+    a:link { text-decoration: none; }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:active { text-decoration: none; }
+
+    /* Headers/hero image and text */
+    .headers {
+        /* Sizing */
+        width: 100vw;
+        height: 100vh;
+        /* Position */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Hero Image */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/feast.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    .header-content {
+        /* Sizing */
+        border-radius: 7px;
+        /* Position */
+        position: relative;
+        text-align: center;
+        align-items: center;
+        /* Colour */
+        background-color: rgba(218, 208, 192, 0.852);
+    }
+
+    .header-content #header {
+        /* Sizing */
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        /* Position */
+        text-align: center;
+        resize: both;
+        /* Font/Text */
+        font-size: 55px;
+        font-family: 'Amatic SC', sans-serif;
+        color: white;
+    }
+
+    .header-content p {
+        /* Sizing */
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        /* Position */
+        text-align: centre;
+        /* Font/Text */
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        color: white; 
+    }
+
+    /* Introduction */
+    .index.introduction {
+        /* Position/Sizing */
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 7px;
+        margin-left: 3%;
+        width: 91.7%;  
+        /* Colour */
+        color: white;
+        background-color: rgb(205, 202, 177);
+        /* Font/Text */
+        font-size: 30px;
+        font-family: 'Amatic SC', sans-serif;
+    }
+
+    /* Recipes */
+    .index.breakfast-burrito {
+        /* Sizing */
+        width: 91.7%;
+        height: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 130px;
+        padding-bottom: 130px;
+        border-radius: 7px;
+        border-bottom: 50px;
+        /* Position */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3%;
+        /* Hero Image */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/breakfast-burrito-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed; 
+    }
+
+    .index.cauliflower-taco {
+        /* Sizing */
+        width: 91.7%;
+        height: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 130px;
+        padding-bottom: 130px;
+        border-radius: 7px;
+        /* Position */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3%;
+        /* Hero Image */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://www.eatfigsnotpigs.com/caribbean-inspired-cauliflower-tacos-with-mango-salsa/jamaican-jerk-cauliflower-tacos_0294/);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;  
+    }
+
+    .index.bbq-chicken-nachos {
+        /* Sizing */
+        width: 91.7%;
+        height: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 130px;
+        padding-bottom: 130px;
+        border-radius: 7px;
+        /* Position */
+        margin-left: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Hero Image */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/37324.jpg?resize=1200:*);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed; 
+    }
+
+    .recipe-text {
+        /* Sizing */
+        width: 85%;
+        /* Position */
+        position: relative;
+        text-align: center;
+        align-items: center;
+        /* Colour */
+        background-color: rgba(218, 208, 192, 0.306)
+    }
+
+
+    #back-to-top {
+        /* Sizing */
+        padding: 10px;
+        border-radius: 7px;
+        margin-left: 7px;
+        margin-bottom: 50px;
+        /* Position */
+        position: relative;
+        left: 44%;
+        /* Colour */
+        background-color: rgb(205, 202, 177);
+        /* Font/Text */
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+    }
+
+/* index.html styling endning */
+
+/* breakfast-burrito.html styling beginning */
+
+    /* Headers/hero image and text */
+    #burrito-header {
+        /* Sizing */
+        width: 93.6vw;
+        height: 70vh;
+        border-radius: 7px;
+        /* Position */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3%;
+        margin-top: 30px;
+        /* Hero Image */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/breakfast-burrito-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    .header-title {
+       /* Sizing */
+       width: 65%;
+       margin-right: 10px;
+       margin-left: 10px;
+       margin-top: 10px;
+       margin-bottom: 0;
+       /* Position */
+       position: relative;
+       text-align: center;
+       align-items: center;
+       resize: both;
+       /* Colour */
+       background-color: rgba(218, 208, 192, 0.306);
+       /* Font/Text */
+       font-size: 65px;
+       font-family: 'Amatic SC', sans-serif;
+       color: white;
+    }
+
+    /* Introduction */
+    .introduction {
+        /* Position/Sizing */
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 7px;
+        margin-left: 3%;
+        width: 91.7%;  
+        /* Colour */
+        color: white;
+        background-color: rgb(205, 202, 177);
+        /* Font/Text */
+        font-size: 30px;
+        font-family: 'Amatic SC', sans-serif;
+    }
+
+    /* Cooking details */
+    .cooking-details {
+        display: flexbox;
+    }
+/* breakfast-burrito.html styling ending */
+
+/* cauliflower-tacos.html styling beginning */
+/* cauliflower-tacos.html styling ending */
+
+/* bbq-chicken-nachos.html styling beginning */
+/* bbq-chicken-nachos.html styling ending */
