@@ -177,11 +177,12 @@
     }
 
 
-    #back-to-top {
+    #return-top {
         /* Sizing */
         padding: 1%;
         border-radius: 7px;
         /* Position */
+        margin-top: 1%;
         margin-right: 3%;
         margin-bottom: 2.3%;
         position: relative;
@@ -198,6 +199,7 @@
         padding: 1%;
         border-radius: 7px;
         /* Position */
+        margin-top: 1%;
         margin-left: 3%;
         margin-bottom: 2.3%;
         position: relative;
@@ -211,47 +213,26 @@
 
 /* index.html styling endning */
 
-/* breakfast-burrito.html styling beginning */
-
-    /* Headers/hero image and text */
-    #burrito-header {
-        /* Sizing */
-        width: 93.6%;
-        width: 93.6vw;
-        height: 70vh;
-        border-radius: 7px;
-        /* Position */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 3%;
-        margin-top: 30px;
-        /* Hero Image */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/breakfast-burrito-2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-    }
+/* universal recipe page styling beginning */
 
     .header-title {
-       /* Sizing */
-       width: 65%;
-       /* Position */
-       position: relative;
-       text-align: center;
-       align-items: center;
-       resize: both;
-       margin-right: 10px;
-       margin-left: 10px;
-       margin-top: 10px;
-       margin-bottom: 0;
-       /* Colour */
-       background-color: rgba(218, 208, 192, 0.306);
-       /* Font/Text */
-       font-size: 65px;
-       font-family: 'Amatic SC', sans-serif;
-       color: white;
+        /* Sizing */
+        width: 65%;
+        /* Position */
+        position: relative;
+        text-align: center;
+        align-items: center;
+        resize: both;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        /* Colour */
+        background-color: rgba(218, 208, 192, 0.306);
+        /* Font/Text */
+        font-size: 65px;
+        font-family: 'Amatic SC', sans-serif;
+        color: white;
     }
 
     /* Introduction */
@@ -262,6 +243,7 @@
         padding-right: 1%;
         border-radius: 7px; 
         /* Position */
+        margin-top: 2%;
         margin-left: 3%;
         text-align: center;
         /* Colour */
@@ -279,7 +261,8 @@
         border-radius: 7px;
         /* Position */
         display: flex;
-        margin: 3%;
+        margin-left: 3%;
+        margin-top: 2%;
         /* Colour */
         background-color: rgb(224, 211, 191);
     }
@@ -314,7 +297,7 @@
         font-size: 3.7vh;
     }
 
-   .cooking-details strong {
+    .cooking-details strong {
         /* Sizing */
         padding: 0.5%;
         border-radius: 7px;
@@ -322,81 +305,6 @@
         margin: 0.5%;
         /* Colour */
         background-color: rgb(203, 188, 167); 
-    }
-
-    #burrito1 {
-        /* Sizing */
-        width: 40vw;
-        height: 45vh;
-        border-radius: 7px;
-        /* Position */
-        float: left;
-        margin: 3%;
-    }
-
-    .potato-ingredients {
-        /* Sizing */
-        width: 42%; 
-        width: 42vw;
-        padding-right: 3.5%;
-        border-radius: 7px; 
-        /* Position */
-        float: left;
-        margin-top: 2.3%;
-        margin-left: 3%;
-        /* Colour */
-        color: white;
-        background-color: rgb(205, 202, 177);
-        /* Font/Text */
-        font-size: 2.5vw;
-        font-size: 2.5vh;
-        font-family: 'Amatic SC', sans-serif;
-        text-align: center;
-        list-style-position: inside;
-    }
-
-    .tofu-ingredients {
-        /* Sizing */
-         width: 42%; 
-         width: 42vw;
-         border-radius: 7px; 
-         padding-right: 3.5%;
-         /* Position */
-         float: right;
-         margin-right: 3%;
-         margin-top: 2.3%;
-         margin-bottom: 2.3%;
-         /* Colour */
-         color: white;
-         background-color: rgb(205, 202, 177);
-         /* Font/Text */
-         font-size: 2.90vw;
-         font-size: 2.90vh;
-         font-family: 'Amatic SC', sans-serif;
-         text-align: center;
-         list-style-position: inside;
-    }
-
-    .burrito-ingredients {
-        /* Sizing */
-        width: 42%; 
-        width: 42vw;
-        padding-right: 3.5%;
-        border-radius: 7px; 
-        /* Position */
-        float: left;
-        margin-top: 2.3%;
-        margin-left: 3%;
-        margin-bottom: 2.3%;
-        /* Colour */
-        color: white;
-        background-color: rgb(205, 202, 177);
-        /* Font/Text */
-        font-size: 2.5vw;
-        font-size: 2.5vh;
-        font-family: 'Amatic SC', sans-serif;
-        text-align: center;
-        list-style-position: inside;
     }
 
     .instructions {  
@@ -410,8 +318,7 @@
         display: inline-block;
         margin-left: 3%;
         margin-right: 3%;
-        margin-top: 2.3%;
-        margin-bottom: 2%;
+        margin-top: 2%;
         /* Colour */
         color: white;
         background-color: rgb(224, 211, 191);
@@ -455,34 +362,235 @@
     font-size: 3.7vh;
     }
 
-    #footer {
-    /* Sizing */
-    width: 93.6%;
-    width: 93.6vw;
-    border-radius: 7px;
-    /* Position */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 3%;
-    margin-bottom: 3%;
-    /* Hero Image */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/breakfast-burrito-2.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    background-attachment: fixed;
-    /* Colour */
-    background-color: rgba(218, 208, 192, 0.306);
-    /* Font/Text */
-    font-family: 'Amatic SC', sans-serif;
-    color: white;
+/* universal recipe page styling ending */
+
+/* breakfast-burrito.html styling beginning */
+
+    /* Headers/hero image and text */
+    #burrito-header {
+        /* Sizing */
+        width: 93.6%;
+        width: 93.6vw;
+        height: 70vh;
+        border-radius: 7px;
+        /* Position */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3%;
+        margin-top: 30px;
+        /* Hero Image */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/breakfast-burrito-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
     }
-    
-    
+
+    #burrito1 {
+        /* Sizing */
+        width: 40vw;
+        height: 45vh;
+        border-radius: 7px;
+        /* Position */
+        float: left;
+        margin: 3%;
+    }
+
+    .potato-ingredients {
+        /* Sizing */
+        width: 42%; 
+        width: 42vw;
+        padding-right: 3.5%;
+        border-radius: 7px; 
+        /* Position */
+        float: left;
+        margin-top: 2%;
+        margin-left: 3%;
+        /* Colour */
+        color: white;
+        background-color: rgb(205, 202, 177);
+        /* Font/Text */
+        font-size: 2.5vw;
+        font-size: 2.5vh;
+        font-family: 'Amatic SC', sans-serif;
+        text-align: center;
+        list-style-position: inside;
+    }
+
+    .tofu-ingredients {
+        /* Sizing */
+         width: 42%; 
+         width: 42vw;
+         border-radius: 7px; 
+         padding-right: 3.5%;
+         /* Position */
+         float: right;
+         margin-right: 3%;
+         margin-top: 2%;
+         margin-bottom: 2.3%;
+         /* Colour */
+         color: white;
+         background-color: rgb(205, 202, 177);
+         /* Font/Text */
+         font-size: 2.90vw;
+         font-size: 2.90vh;
+         font-family: 'Amatic SC', sans-serif;
+         text-align: center;
+         list-style-position: inside;
+    }
+
+    .burrito-ingredients {
+        /* Sizing */
+        width: 42%; 
+        width: 42vw;
+        padding-right: 3.5%;
+        border-radius: 7px; 
+        /* Position */
+        float: left;
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-bottom: 2.3%;
+        /* Colour */
+        color: white;
+        background-color: rgb(205, 202, 177);
+        /* Font/Text */
+        font-size: 2.5vw;
+        font-size: 2.5vh;
+        font-family: 'Amatic SC', sans-serif;
+        text-align: center;
+        list-style-position: inside;
+    }
+
+    #footer {
+        /* Sizing */
+        width: 93.6%;
+        width: 93.6vw;
+        border-radius: 7px;
+        /* Position */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3%;
+        margin-top: 2%;
+        /* Hero Image */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/breakfast-burrito-2.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        background-attachment: fixed;
+        /* Colour */
+        background-color: rgba(218, 208, 192, 0.306);
+        /* Font/Text */
+        font-family: 'Amatic SC', sans-serif;
+        color: white;
+        }
+
 /* breakfast-burrito.html styling ending */
 
 /* cauliflower-tacos.html styling beginning */
+   
+    /* Headers/hero image and text */
+        #tacos-header {
+            /* Sizing */
+            width: 93.6%;
+            width: 93.6vw;
+            height: 70vh;
+            border-radius: 7px;
+            /* Position */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 3%;
+            margin-top: 30px;
+            /* Hero Image */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/cauliflower-taco-1.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+
+
+    #tacos1 {
+        /* Sizing */
+        width: 40vw;
+        height: 45vh;
+        border-radius: 7px;
+        /* Position */
+        float: left;
+        margin: 3%;
+    }
+
+    .cauliflower-ingredients {
+        /* Sizing */
+         width: 42%; 
+         width: 42vw;
+         border-radius: 7px; 
+         padding-right: 3.5%;
+         /* Position */
+         float: left;
+         margin-left: 3%;
+         margin-left: 3%;
+         margin-top: 2%;
+         /* Colour */
+         color: white;
+         background-color: rgb(205, 202, 177);
+         /* Font/Text */
+         font-size: 2.90vw;
+         font-size: 2.90vh;
+         font-family: 'Amatic SC', sans-serif;
+         text-align: center;
+         list-style-position: inside;
+    }
+
+    .salsa-ingredients {
+        /* Sizing */
+        width: 42%; 
+        width: 42vw;
+        padding-right: 3.5%;
+        border-radius: 7px; 
+        /* Position */
+        float: left;
+        margin-top: 2%;
+        margin-right: 3%;
+        margin-left: 2.5%;
+        /* Colour */
+        color: white;
+        background-color: rgb(205, 202, 177);
+        /* Font/Text */
+        font-size: 2.9vw;
+        font-size: 2.9vh;
+        font-family: 'Amatic SC', sans-serif;
+        text-align: center;
+        list-style-position: inside;
+    }
+
+    #footer2 {
+        /* Sizing */
+        width: 93.6%;
+        width: 93.6vw;
+        border-radius: 7px;
+        /* Position */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 2%;
+        /* Hero Image */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/cauliflower-taco-3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        /* Colour */
+        background-color: rgba(218, 208, 192, 0.306);
+        /* Font/Text */
+        font-family: 'Amatic SC', sans-serif;
+        color: white;
+        }
+
 /* cauliflower-tacos.html styling ending */
 
 /* bbq-chicken-nachos.html styling beginning */
